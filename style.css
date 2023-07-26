@@ -1,0 +1,26 @@
+:root {
+  --clr-pri-tomato-hsl: 4, 100%, 67%;
+
+  --clr-neu-dark-slate-grey-hsl: 234, 29%, 20%;
+  --clr-neu-charcoal-grey-hsl: 235, 18%, 26%;
+  --clr-neu-grey-hsl: 231, 7%, 60%;
+  --clr-neu-white-hsl: 0, 0%, 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+  font-family: "Roboto", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
