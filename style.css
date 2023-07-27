@@ -24,3 +24,51 @@ svg {
   display: block;
   max-width: 100%;
 }
+
+.signup-container {
+  margin: 2rem 1.25rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.benefits-container {
+  display: grid;
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.benefit {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    padding: 1rem 1.25rem;
+    border-radius: 5px;
+    border: solid 1px hsl(var(--clr-neu-grey-hsl));
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: hsl(var(--clr-neu-dark-slate-grey-hsl));
+  color: hsl(var(--clr-neu-white-hsl));
+  font-weight: 700;
+  border-radius: 5px;
+}
