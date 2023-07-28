@@ -55,13 +55,13 @@ form {
 }
 
 label {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 input {
-    padding: 1rem 1.25rem;
-    border-radius: 5px;
-    border: solid 1px hsl(var(--clr-neu-grey-hsl));
+  padding: 1rem 1.25rem;
+  border-radius: 5px;
+  border: solid 1px hsl(var(--clr-neu-grey-hsl));
 }
 
 button {
@@ -71,4 +71,34 @@ button {
   color: hsl(var(--clr-neu-white-hsl));
   font-weight: 700;
   border-radius: 5px;
+}
+
+.success-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.25rem;
+  gap: 1.5rem;
+}
+
+.success-container img {
+  height: 60px;
+  align-self: flex-start;
+  margin-top: 30%;
+}
+
+.success-container p {
+  line-height: 1.5rem;
+}
+
+.success-container button {
+  margin-top: auto;
+}
+
+strong {
+  font-weight: 700;
+}
+
+[hidden] {
+  display: none !important;
 }
