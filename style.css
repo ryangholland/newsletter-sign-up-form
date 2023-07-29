@@ -102,3 +102,44 @@ strong {
 [hidden] {
   display: none !important;
 }
+
+@media (max-width: 650px) {
+  .img-container img {
+    min-width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 650px) {
+  main {
+    height: 100vh;
+    background-color: hsl(var(--clr-neu-charcoal-grey-hsl));
+    display: grid;
+    place-items: center;
+  }
+
+  .main-container {
+    background-color: hsl(var(--clr-neu-white-hsl));
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 800px;
+  }
+
+  .img-container {
+    order: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .signup-container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 1.5rem;
+  }
+
+  .benefits-container {
+    margin: 0;
+  }
+
+}
