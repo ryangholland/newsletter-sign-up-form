@@ -142,4 +142,23 @@ strong {
     margin: 0;
   }
 
+  .success-container {
+    height: auto;
+    background-color: hsl(var(--clr-neu-white-hsl));
+    padding: 3rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    
+  }
+
+  .success-container img {
+    height: 60px;
+    align-self: flex-start;
+    margin-top: 0;
+  }
+
+  .success-container h1 {
+    font-size: 3rem;
+  }
+
 }
