@@ -148,7 +148,6 @@ strong {
     padding: 3rem;
     border-radius: 1rem;
     max-width: 500px;
-    
   }
 
   .success-container img {
@@ -160,5 +159,23 @@ strong {
   .success-container h1 {
     font-size: 3rem;
   }
+}
 
+button:hover {
+  cursor: pointer;
+
+  background-image: linear-gradient(
+    90deg,
+    hsl(345deg 94% 68%) 0%,
+    hsl(349deg 94% 66%) 11%,
+    hsl(354deg 96% 64%) 22%,
+    hsl(359deg 96% 62%) 33%,
+    hsl(3deg 97% 60%) 44%,
+    hsl(8deg 97% 58%) 56%,
+    hsl(12deg 98% 56%) 67%,
+    hsl(17deg 98% 54%) 78%,
+    hsl(21deg 99% 52%) 89%,
+    hsl(26deg 100% 50%) 100%
+  );
+  border: solid 2px white;
 }
