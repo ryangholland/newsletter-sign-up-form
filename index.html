@@ -41,7 +41,7 @@
             />
           </picture>
         </div>
-        <div class="signup-container" >
+        <div class="signup-container">
           <h1>Stay updated!</h1>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
           <div class="benefits-container">
@@ -58,15 +58,21 @@
               <p>And much more!</p>
             </div>
           </div>
-          <form>
-            <label for="email">Email address</label>
+          <form data-subscribe-form novalidate>
+            <div class="label-error-div">
+              <label for="email">Email address</label>
+              <p class="form-error" data-form-error></p>
+            </div>
+
             <input
               type="email"
               name="email"
               id="email"
+              data-email-input
               placeholder="email@company.com"
+              required
             />
-            <button type="submit" data-subscribe-btn>Subscribe to monthly newsletter</button>
+            <button type="submit">Subscribe to monthly newsletter</button>
           </form>
         </div>
       </div>
@@ -78,8 +84,9 @@
         />
         <h1>Thanks for subscribing!</h1>
         <p>
-          A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Please
-          open it and click the button inside to confirm your subscription.
+          A confirmation email has been sent to
+          <strong>ash@loremcompany.com</strong>. Please open it and click the
+          button inside to confirm your subscription.
         </p>
         <button data-dismiss-btn>Dismiss message</button>
       </div>

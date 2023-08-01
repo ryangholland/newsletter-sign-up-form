@@ -147,7 +147,7 @@ strong {
     background-color: hsl(var(--clr-neu-white-hsl));
     padding: 3rem;
     border-radius: 1rem;
-    max-width: 500px;
+    max-width: 460px;
   }
 
   .success-container img {
@@ -178,4 +178,23 @@ button:hover {
     hsl(26deg 100% 50%) 100%
   );
   border: solid 2px white;
+}
+
+.label-error-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form-error {
+  color: hsl(var(--clr-pri-tomato-hsl));
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.invalid-input {
+  color: hsl(var(--clr-pri-tomato-hsl));
+  border-color: hsl(var(--clr-pri-tomato-hsl));
+  background-color: hsla(var(--clr-pri-tomato-hsl), 0.2);
 }
