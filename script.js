@@ -4,6 +4,7 @@ const mainContainer = document.querySelector("[data-main-container]");
 const successContainer = document.querySelector("[data-success-container]");
 const emailInput = document.querySelector("[data-email-input]");
 const formError = document.querySelector("[data-form-error");
+const userEmail = document.querySelector("[data-user-email]");
 
 subscribeForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -14,6 +15,7 @@ subscribeForm.addEventListener("submit", (e) => {
   } else {
     mainContainer.hidden = true;
     successContainer.hidden = false;
+    userEmail.textContent = emailInput.value;
     emailInput.value = "";
   }
 });
